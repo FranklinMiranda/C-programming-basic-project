@@ -68,6 +68,28 @@ int main() {
 
 	printf("\n%d", num1);
 
+	int id = 123, age = 1234;
+
+	printf("\n%d %d", id, age);
+
+
+	// binary precision to decimal precision conversion - number 1234.560059 is taken to 2 decimal place precision to represent number 1234.56
+	float number1 = 1234.56;
+	double exponent = 1.2222E12;
+
+	printf("\n%f", number1);
+	printf("\n%lf", exponent);
+
+	char letter = 'a';
+
+	printf("\n%c", letter);
+
+	// Maximum Integer Values representable by the different data types
+	int num1 = 42994967300;
+
+	printf("\n%d", num1);
+	
+
 
 
 	return 0; 
